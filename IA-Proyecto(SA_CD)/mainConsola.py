@@ -43,8 +43,8 @@ while True:
         print ("///////////////    LABERINTO con Razonamiento /////////////// \n")
 
         laberinto = gLaberinto()
-        inicio = (0, 0)     #inicio cambiar
-        final = (4, 4)      #final cambiar
+        inicio = (0, 0)    
+        final = (num - 1 , random.randint ( 0 , num -  1 ))
         ruta = aEstrella(laberinto, inicio, final)
         solA(ruta, laberinto)
         imprimir(laberinto)
@@ -53,8 +53,8 @@ while True:
          print ("///////////////    LABERINTO sin Razonamiento   /////////////// \n")
 
          laberinto = gLaberinto()
-         inicio = (0, 0)     #inicio cambiar
-         final = (4, 4)      #final cambiar
+         inicio = (0, 0)   
+         final = (num - 1 , random.randint ( 0 , num -  1 ))
          ruta = aEstrella(laberinto, inicio, final)
          busqueda(laberinto, inicio, final)
          imprimir(laberinto)
@@ -63,8 +63,8 @@ while True:
          print ("///////////////    LABERINTO    /////////////// \n")
 
          laberinto = gLaberinto()
-         inicio = (0, 0)     #inicio cambiar
-         final = (4, 4)      #final cambiar
+         inicio = (0, 0)    
+         final = (num - 1 , random.randint ( 0 , num -  1 ))
          ruta = aEstrella(laberinto, inicio, final)
          busqueda(laberinto, inicio, final)
          solA(ruta, laberinto)
