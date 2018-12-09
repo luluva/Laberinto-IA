@@ -10,3 +10,4 @@ class Nodos():
 
     def __eq__(self, otra):
         return self.posicion == otra.posicion
+
